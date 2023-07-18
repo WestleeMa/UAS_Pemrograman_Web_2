@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+.newscard{
+    margin-right: 20%;
+    margin-left: 30%;
+    padding-left: 3%;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    cursor: pointer;
+}
+
+.shortcontent{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 500pt;
+}
+
+.container{
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-left: 20%;
+    padding-left: 3%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    color: white;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    height: auto;
+    width: auto;
+}
+
+.sourcecontain{
+    color: white;
+    padding-left: 81%;
+}
+
+body{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+.newshead{
+    position: fixed;
+    padding-top:21%;
+    padding-left: 5%;
+    color: white;
+    word-wrap:break-word;
+    font-family: 'Merriweather', serif;
+}
+
+.img{
+    width: 40%;
+    height: 40%;
+    padding-bottom: 3%;
+    float: right;
+    padding-left:3%;
+}
+
+.img2{
+    width: 40%;
+    height: 40%;
+    padding-bottom: 3%;
+}
+
+.title{
+    padding-left: 1%;
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
+.footer{
+    margin-top: 40%;
+}
+
+h2{
+    padding-bottom:2%;
+}
+
+a{
+    word-wrap:break-word;
+    text-decoration: 0;
+}
+
+.cardlink{
+    color: black;
+}
+
+.iconnav{
+    width: 20%;
+    height: 20%;
+    padding-right: 4%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width: 991px) {
+    .newshead{
+        position: relative;
+        padding-top: 10%;
+        padding-left: 5%;
+        color: white;
+        word-wrap:break-word;
+        font-family: 'Merriweather', serif;
+    }
+
+    .container{
+        margin-right: 1%;
+        margin-top: 5%;
+        margin-left: 1%;
+        padding-left: 3%;
+        padding-right: 5%;
+        padding-top: 3%;
+        padding-bottom: 2%;
+        color: white;
+        border: 0px;
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        height: auto;
+        width: auto;
+    }
+
+    .newscard{
+        margin-right: 10%;
+        margin-left: 5%;
+        padding-left: 3%;
+        padding-top: 5%;
+        padding-bottom: 8%;
+    }
+
+    .img{
+        width: 50%;
+        height: 50%;
+        padding-bottom: 3%;
+        float: right;
+        padding-left:3%;
+    }
+
+    .img2{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 3%;
+    }
+}

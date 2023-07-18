@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+
+h1 {
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+h5 {
+  color: rgb(163, 163, 163);
+  padding-top: 3%;
+}
+h3 {
+  padding-top: 5%;
+}
+.center {
+  text-align: center;
+}
+
+.contain {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.footer {
+  margin-top: 30%;
+}
+
+a {
+  word-wrap: break-word;
+}
+
+.iconnav {
+  width: 20%;
+  height: 20%;
+  padding-right: 4%;
+  padding-left: 2%;
+  margin-bottom: 2%;
+}
+
+.pesankini {
+  padding: 2%;
+}
+
+.pesan {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.pemisah {
+  padding-bottom: 3%;
+}
+
+.pengirim {
+  padding-left: 2%;
+  padding-top: 1%;
+}
+
+.balasan{
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+.balasan:empty{
+  padding-left: 0%;
+  padding-top: 0%;
+}

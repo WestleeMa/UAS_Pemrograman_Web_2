@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(32, 32, 32);
+    color: white; 
+}
+
+.white{
+    color: white;
+}
+
+.stocked{
+    color: green;
+}
+
+.padding{
+    padding: 1%;
+}
+
+.smalltext{
+    font-size: medium;
+}
+
+.shading{
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.cardimage{
+    width: 300px;
+    height: 300px;
+}
+
+.cardsize{
+    height: 33rem;
+    width: 18rem;
+}
+
+.cardsizesale{
+    height: 31.5rem;
+    width: 18rem;
+}
+
+.titlelimit{
+    display: block;
+    width: 16rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.paddingtengah{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+a{
+    text-decoration: 0;
+    color: rgb(151, 151, 151);
+}
+
+.iconnav{
+    width: 20%;
+    height: 20%;
+    padding-right: 4%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+}
+
+.hardsoftcontain{
+    border: 1px solid rgb(2, 6, 255);
+    background-color: rgb(70, 70, 70);
+    word-wrap:break-word;
+    transition:all 0.1s;
+}
+
+.hardsoftcontain:hover{
+    border: 8px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    word-wrap:break-word;
+    transition:all 0.1s;
+}
+
+.ctgimg{
+    width: 20%;
+    height: 20%;
+}
+
+.margincarousel{
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.floatright{
+    float: right;
+}
+
+@media screen and (max-width: 991px) {
+    .margincarousel{
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+
+    .paddingtengah{
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

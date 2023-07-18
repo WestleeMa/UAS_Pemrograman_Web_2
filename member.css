@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+body{
+    background-image: url(img/402010490_GOLD_CONFETTI_HORIZONTAL.png);
+    background-color: rgb(99, 99, 99);
+    background-blend-mode: multiply;
+}
+.contcurrentstatus{
+    margin-top: 10%;
+    margin-left: 30%;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    color: white;
+    height: auto;
+    width: auto;
+    text-shadow: 8px 5px 10px #000000;
+}
+
+h1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.left{
+    color: white;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.currentstatus{
+    text-shadow: rgb(63, 217, 255) 0 0 30px;
+    text-decoration: underline white;
+    margin-right: 80%;
+}
+
+.headcurrentstats{
+    font-family: 'Merriweather', serif;
+}
+
+.footer{
+    margin-top: 13%;
+}
+
+.headreward{
+    text-shadow: 8px 5px 10px #000000;
+    font-family: 'Merriweather', serif;
+}
+
+.contback{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-right: 8%;
+    margin-left: 8%;
+    color: white;
+    text-shadow: 8px 5px 10px #000000;
+    font-family: 'Merriweather', serif;
+}
+
+.contback:hover{
+    margin-top: 20%;
+    margin-right: 8%;
+    margin-left: 8%;
+    color: rgb(182, 182, 182);
+    text-shadow: rgb(0, 0, 255) 0 0 20px;
+    font-family: 'Merriweather', serif;
+}
+
+.iconnav{
+    width: 20%;
+    height: 20%;
+    padding-right: 4%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+}

@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+.container{
+    margin-top: 2%;
+    padding: 3%;
+    border-style: solid;
+}
+
+.shortcontent{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+.adminbuttons{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.buttondashboard{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}

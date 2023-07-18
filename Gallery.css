@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+.imglink{
+    text-decoration: 0;
+    color: rgb(151, 151, 151);
+}
+
+.imglink:hover{
+    text-decoration: 0;
+    color: rgb(255, 84, 84);
+}
+
+.iconnav{
+    width: 20%;
+    height: 20%;
+    padding-right: 4%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+}
+
+.img{
+    width: 100%;
+}
+
+.heading{
+    padding-top: 3%;
+}

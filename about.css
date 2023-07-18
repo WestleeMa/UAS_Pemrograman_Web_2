@@ -1,0 +1,74 @@
+.container{
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-left: 30%;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    color: white;
+    border: 10px double rgb(116, 116, 116);
+    height: auto;
+    width: auto;
+}
+
+body{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+.abouthead{
+    position: fixed;
+    padding-top: 21%;
+    padding-left: 5%;
+    color: white;
+}
+
+img{
+    width: 30%;
+    height: 30%;
+}
+
+.title{
+    padding-left: 1%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.jarakfooter{
+    margin-top: 50%;
+}
+
+a{
+    word-wrap:break-word;
+}
+
+.iconnav{
+    width: 20%;
+    height: 20%;
+    padding-right: 4%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width: 991px) {
+    .abouthead{
+        position: relative;
+        padding-top: 6%;
+        padding-left: 0%;
+        color: white;
+        text-align: center;
+    }
+
+    .container{
+        margin-right: 0%;
+        margin-top: 10%;
+        margin-left: 0%;
+        padding-left: 3%;
+        padding-top: 3%;
+        padding-bottom: 2%;
+        color: white;
+        border: 5px double rgb(116, 116, 116);
+        height: auto;
+        width: auto;
+    }
+}

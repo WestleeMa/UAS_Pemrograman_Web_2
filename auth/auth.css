@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+.container{
+    margin-top: 2%;
+}
+
+.shortcontent{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 500px;
+}
